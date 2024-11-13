@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>imgaem Dinamica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou diminua o tamanho do seu navegador</p>
+<picture> 
+    <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+    <img src="imagens/g.png" alt="foto grande"></picture>
+
+<hr>
+    <h1>Lets Colocar um fucking audio aqui</h1>
+    <p>Vamos aprender a reproduzir audios</p>
+    <audio preload="metadata" autoplay controls>
+<source src="midia/arlequina.mp3" type="audio/mpeg">
+    </audio>
+<hr>
+<h1>Agora assistam meu video hospedado dentro do meu próprio servidor</h1>
+<video src="midia/video.mp4" width="560" controls></video>
+<hr>
+<h1>Agora assistam meu video que foi hospedado externamente</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=wnTOdCQu_6tZ7LiK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
